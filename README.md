@@ -1,3 +1,10 @@
+usage:
+
+```bash
+$ git clone https://github.com/jatoledo/database_test.git
+$ cd database_test
+```
+
 
 
 step 1
@@ -16,8 +23,9 @@ docker exec -i npd-bench-mysql sh -c 'exec mysql --local-infile -uroot -proot' <
 
 
 
-Usage:
+Config:
 
 ```bash
 db_url: mysql+pymysql://root:root@localhost:3306/npd
 ```
+
